@@ -1,0 +1,25 @@
+Notes AI KUL 2018-2019
+======================
+:Author: Robin Van den Broeck
+:Email: <robin.broeck@gmail.com>
+
+
+Introduction
+------------
+:Date: 25-09-2018
+
+// TODO: defenition of general intelligence
+Long term aim: Artificial *general* intelligence +
+Short term aim: voor een taak specefiek
+
+.Turing test:
+* Inteligentie nodig voor inteligente te waarderen
+* Onduidelijkheid kwa spelregels (vb. hoelang mag de jury de test doen: tot de persoon in slaap valt en enkel het machine niet meer verderkan)
+
+Analoog met vliegen: de mens kan niet vliegen zoals een vogel (simulatie), dus moest een andere manier => vliegtuigen (reproductie)
+
+State-space
+-----------
+:Date: 25-09-2018
+
+Bedoeling van een search tree: inmens/oneindig veel nodes -> men wilt zo weinig mogelijk van de boom genereren om toch het juiste pad te vinden.
