@@ -16,7 +16,7 @@ Short term aim: voor een taak specefiek
 * Inteligentie nodig voor inteligente te waarderen
 * Onduidelijkheid kwa spelregels (vb. hoelang mag de jury de test doen: tot de persoon in slaap valt en enkel het machine niet meer verderkan)
 
-Analoog met vliegen: de mens kan niet vliegen zoals een vogel (simulatie), dus moest een andere manier => vliegtuigen (reproductie)
+Analoog met vliegen: de mens kan niet vliegen zoals een vogel (*simulatie*), dus moest een andere manier => vliegtuigen (*reproductie*)
 
 State-space
 -----------
