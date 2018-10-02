@@ -36,20 +36,16 @@ Expanderen:: Het bereken van de kinderen van een open knoop.
 .Complexiteit
 |===
 | d | memory             | time
-| 1 | asciimath:[b * 1]  | asciimath:[b ^ 1]
-| 2 | asciimath:[b * 2]  | asciimath:[b ^ 2]
-| 3 | asciimath:[b * 3]  | asciimath:[b ^ 3]
-| 4 | asciimath:[b * 4]  | asciimath:[b ^ 4]
-| m | asciimath:[b * m]  | asciimath:[b ^ m]
+| 1 | latexmath:[b * 1]  | latexmath:[b ^ 1]
+| 2 | latexmath:[b * 2]  | latexmath:[b ^ 2]
+| 3 | latexmath:[b * 3]  | latexmath:[b ^ 3]
+| 4 | latexmath:[b * 4]  | latexmath:[b ^ 4]
+| m | latexmath:[b * m]  | latexmath:[b ^ m]
 |===
-
-[asciimath]
+[latexmath]
 ++++
-{
-    ("time" = O(b^m)),
-    ("memory" = O(b*m))
-:}
+time = O(b^m) \\
+memory = O(b*m)
 ++++
-
 IMPORTANT: Volgende werkt enkel indien b groot is: +
-asciimath:[O(b^m) = b^1 + b^2 + b^3 + ... + b^(m-1) + b^m]
+latexmath:[O(b^m) = b^1 + b^2 + b^3 + ... + b^(m-1) + b^m]
