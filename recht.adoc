@@ -18,3 +18,13 @@ IMPORTANT: Belangrijkst kenmerk arbeidsovereenkomst: onder gezag van werkgever.
 Shijnzelfstandigheid:: Werknemer die doet alsof dat hij zelfstandig is.
 
 IMPORTANT: Voor antwoorden op elke casus kijken of het al dan nietgaat over een bediende over een arbeider.
+
+Dwaling:: Je vergist je in iets in de overeenkomst. Het moet verschoonbaar en de zelfstandigheid van de zaak bevatten.
+asciidoctor
+
+Nietigheid:: Sanctioneerd een problem bij de *opstand* van de overeenkomst, niet als het probleem bestaat tijdens de overeenkomst.
+
+IMPORTANT: Goed te kennen: verbod op eenvolgende overeenkomstigen
+
+Werkweek:: Een werkweek duurt standaard 38 uren voor de oefeningen.
+
