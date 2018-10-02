@@ -31,3 +31,22 @@ Branching-factor:: Gemiddelde hoeveelheid kinderen elke knoop heeft. Men wilt de
 Open knoop:: Een knoop waarvan de kinderen nog niet bekend zijn
 
 Expanderen:: Het bereken van de kinderen van een open knoop.
+
+
+== Blind search
+
+=== Iterative
+.Complexiteit
+|===
+| d | memory             | time
+| 1 | asciimath:[b x 1]  | asciimath:[b ^ 1]
+| 2 | asciimath:[b x 2]  | asciimath:[b ^ 2]
+| 3 | asciimath:[b x 3]  | asciimath:[b ^ 3]
+| 4 | asciimath:[b x 4]  | asciimath:[b ^ 4]
+| m | asciimath:[b x m]  | asciimath:[b ^ m]
+
+asciimath:[`"time" = b^m`]
+asciimath:[`"memory" = O(b*m)`]
+
+IMPORTANT: volgende werkt enkel indien b groot is
+asciimath:[`O(b^m) = b^1 + b^2 + b^3 + ... + b^(m-1) + b^m`]
