@@ -10,12 +10,9 @@ jobs:
     steps:
       - checkout
 
-      # Download and cache dependencies
       - restore_cache:
           keys:
             - v1-dependencies-{{ checksum "Gemfile.lock" }}
-            # fallback to using the latest cache if no exact match is found
-            - v1-dependencies-
 
       - run:
           name: install dependencies
@@ -26,30 +23,22 @@ jobs:
             - ./vendor/bundle
           key: v1-dependencies-{{ checksum "Gemfile.lock" }}
 
-      # Generate files
       - run:
-          name: Build adocs
+          name: Build asciidoc files to html5
           command: bundle exec asciidoctor -b html5 -D build ai.adoc recht.adoc
 
-      # Deploy it
-      - run:
-          name: goto right branch
-          command: git checkout -f gh-pages
-      - run:
-          docker:
-            - image: ubuntu:18.04
-          name: Remove useless files
-          command: \
-            ls | grep -v .git | grep -v build | xargs rm -rf
-      - run:
-          name: Move files
-          command: mv -v build/* .
-      - run:
-          name: Make the commit
-          command: git commit -m "CircleCI docs build"
       - deploy:
           name: Deploy Release to GitHub
-          command: git push
+          command: |
+            git checkout -f gh-pages
+            ls | grep -v .git | grep -v build | xargs rm -rf
+            mv -v build/* .
+            git config --global user.email circleci@circleci
+            git config --global user.name Circleci
+            git add .
+            git commit -m "CircleCI docs build"
+            # Quiet so we don't show the key in the logs
+            git push -q https://${DOCS_GITHUB_TOKEN}@github.com/RobinVdBroeck/notes-2018-2019.git gh-pages
 
 workflows:
   version: 2
@@ -58,4 +47,4 @@ workflows:
       - deploy:
           filters:
             branches:
-              only: master
+              ignore: gh-pages
