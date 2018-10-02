@@ -36,6 +36,8 @@ jobs:
           name: goto right branch
           command: git checkout -f gh-pages
       - run:
+          docker:
+            - image: ubuntu:18.04
           name: Remove useless files
           command: \
             ls | grep -v .git | grep -v build | xargs rm -rf
