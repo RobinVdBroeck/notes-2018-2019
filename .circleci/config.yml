@@ -6,9 +6,6 @@ jobs:
       # specify the version you desire here
       - image: circleci/ruby:2.5
     working_directory: ~/repo
-    branches:
-      ignore:
-        - gh-pages
 
     steps:
       - checkout
@@ -51,3 +48,12 @@ jobs:
       - deploy:
           name: Deploy Release to GitHub
           command: git push
+
+workflows:
+  version: 2
+  default:
+    jobs:
+      - deploy:
+          filters:
+            branches:
+              only: master
