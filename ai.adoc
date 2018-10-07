@@ -2,17 +2,18 @@
 :toc:
 :Author: Robin Van den Broeck
 :Email: <robin.broeck@gmail.com>
+:imagesdir: images/ai
 :stem:
 
 == Introduction
 // TODO: defenition of general intelligence
 Aims::
-* Long term aim: Artificial *general* intelligence +
-* Short term aim: voor een taak specefiek
+. Long term aim: Artificial *general* intelligence +
+. Short term aim: voor een taak specefiek
 
 Turing test::
-* Inteligentie nodig voor inteligente te waarderen
-* Onduidelijkheid kwa spelregels (vb. hoelang mag de jury de test doen: tot de persoon in slaap valt en enkel het machine niet meer verderkan)
+. Inteligentie nodig voor inteligente te waarderen
+. Onduidelijkheid kwa spelregels (vb. hoelang mag de jury de test doen: tot de persoon in slaap valt en enkel het machine niet meer verderkan)
 
 Analoog met vliegen:: De mens kan niet vliegen zoals een vogel (*simulatie*), dus moest een andere manier gevonden worden => vliegtuigen (*reproductie*)
 
@@ -31,21 +32,80 @@ Open knoop:: Een knoop waarvan de kinderen nog niet bekend zijn
 
 Expanderen:: Het bereken van de kinderen van een open knoop.
 
-== Blind search
-=== Iterative
+== Blind-search methods
+. Depth-first
+. Breadth-first
+. Non-deterministic search
+. Iterative deepening
+. Bi-directional search
+
+=== Depth first
+b = branching factor +
+d = diepte
+[latexmath]
+++++
+Time = O(b ^ d) \\
+Memory = O(d \times b)
+++++
+
+
+=== Breadth first
+b = branching factor +
+m = diepte van eerste eindnode
+[latexmath]
+++++
+Time = O(b ^ m) \\
+Memory = O(d \times b)
+++++
+
+=== Non-deterministic
+
+=== Iterative deepening
 .Complexiteit
 |===
 | d | memory             | time
-| 1 | latexmath:[b * 1]  | latexmath:[b ^ 1]
-| 2 | latexmath:[b * 2]  | latexmath:[b ^ 2]
-| 3 | latexmath:[b * 3]  | latexmath:[b ^ 3]
-| 4 | latexmath:[b * 4]  | latexmath:[b ^ 4]
-| m | latexmath:[b * m]  | latexmath:[b ^ m]
+| 1 | latexmath:[b \times 1]  | latexmath:[b ^ 1]
+| 2 | latexmath:[b \times 2]  | latexmath:[b ^ 2]
+| 3 | latexmath:[b \times 3]  | latexmath:[b ^ 3]
+| 4 | latexmath:[b \times 4]  | latexmath:[b ^ 4]
+| m | latexmath:[b \times m]  | latexmath:[b ^ m]
 |===
 [latexmath]
 ++++
-time = O(b^m) \\
-memory = O(b*m)
+time = O(b ^ m) \\
+memory = O(b \times m)
 ++++
 IMPORTANT: Volgende werkt enkel indien b groot is: +
-latexmath:[O(b^m) = b^1 + b^2 + b^3 + ... + b^(m-1) + b^m]
+latexmath:[O(b^m) = b^1 + b^2 + b^3 + ... + b^{m-1} + b^m]
+
+
+=== Bi-directioneel
+. 1xBF langs voor, 1xBF langs achter
+. Enkel toepasbaar indien er maar 1 start en doelknoop zijn
+
+image::bi-directioneel.jpg[]
+
+== Heurastic search methods
+. Hill Climbing
+. Beam Search
+. Hill Climbing 2
+. Greedy search
+
+=== Termen
+
+Locale search :: alle mogelijke algoritmes waar er maar 1 toestand wordt bijgehouden
+
+=== Hill Climbing
+. Gebasseerd op diepte eerst
+
+=== Beam search:
+. Gebasseerd op breedte eerst
+. Optimalisatie: Leafs die geen eind-knoop zijn: weggooien
+
+image::beam.jpg[]
+
+=== Hill Climbing 2
+Beam search met width = 1
+
+=== Greedy search
+Goed voor optimale paden te vinden
