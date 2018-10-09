@@ -1,0 +1,10 @@
+= DB 2
+
+Optimizer:: vertaalt declertieve SQL code naar imperatieve code
+
+Reindex:: Niet nodig bij het toevoegen van data met een PK. Wel voor een cluster index. Ook om de tree
+te flattenen.
+
+WARNING: Speciale indexvormen zijn product specifiek
+
+Vormen like operator:: tenzij ... -> specefiek rdbms
