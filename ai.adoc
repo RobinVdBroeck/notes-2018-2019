@@ -109,3 +109,15 @@ Beam search met width = 1
 
 === Greedy search
 Goed voor optimale paden te vinden
+
+== Machine Learning: Version Space
+Convergeren:: Niet erg als dit niet gebeurd
+
+Slide 44:: Indien je er [alma3, breakfest, ?, cheap] of [alma3, ?, friday, cheap] zou nemen komt hij niet meer overeen met het voorbeeld. => Altijd de kleinste generalisatie *MOGELIJK* nemen!
+
+== Aut Reasoning
+Slide 7:: Mensen proberen aleen (heersers te vermoooden waar ze niet loyaal aan zijn)
+
+Modus Ponens:: Als A => B en je hebt A heb je ook B
+
+IMPORTANT: Enkel syntaxtische gelijkheid: (vader(Jan), broer(An)) = NIET OK ; (X, broer(An)) = OK ; (f(X, a), f(b, Y)) = OK
