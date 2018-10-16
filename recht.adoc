@@ -8,7 +8,8 @@ Deel 1 niet kennen +
 Bronnen sociale wetgeving niet te kennen.
 
 == Examen
-Cfr + aanduiden toegelaten in bronnen voor examen.
+- Cfr + aanduiden toegelaten in bronnen voor examen.
+- Artikel 18 meenemen
 
 == Deel 2: arbeidsrecht
 :Date: 25-09-2018
@@ -28,3 +29,24 @@ IMPORTANT: Goed te kennen: verbod op eenvolgende overeenkomstigen
 
 Werkweek:: Een werkweek duurt standaard 38 uren voor de oefeningen.
 
+IMPORTANT: Slide van Dwingend karakter van de WAO *ZEKER EN VAST* op examen
+
+=== Het concurrentiebeding:
+- Zie artikel 1143
+- Vorig jaar vraag: Beoordeel of het geldig concurentiebeding is
+- Bedragen nooit te kennen
+- Voorwaarden:
+. Jaarloongrens
+. Beperking tot “soortgelijke activiteiten”
+. Geografische beperking
+. Beperking in tijd
+. Forfaitaire vergoeding
+- Vraag: Als ik een open source product maak; en dat wordt gebruikt door een concurent van mijn werknemer; maak ik dan een fout van concurrentiebeding gaat.
+
+== Deel 2.3
+- Verplichting van beide partijen: examenvraag vorig jaar dat maar 1 iemand juist had: de term "pschosociale risico's"
+- Vorig jaar examenvraag: Definitie pesterijen
+. Bepaalde tijd
+. Moet niet regelmatig zijn
+. 1X kan genoeg
+. Moet niet de bedoeling zijn om iemand te pesten
