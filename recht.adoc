@@ -2,14 +2,15 @@
 :Author: Robin Van den Broeck
 :Email: <robin.broeck@gmail.com>
 
-== Cursus
-
-Deel 1 niet kennen +
-Bronnen sociale wetgeving niet te kennen.
-
 == Examen
 - Cfr + aanduiden toegelaten in bronnen voor examen.
 - Artikel 18 meenemen
+- Deel 1 niet kennen
+- Bronnen sociale wetgeving niet te kennen.
+- Slider 19-30 Deel 2 HD4 niet kennen +
+- Slide 37-38 Deel 2 HD4 niet kennen (hoogstwaarschijnlijk niet op het examenen)
+- Tabel opzegtermijn meenemen
+- AVG meenemen
 
 == Deel 2: arbeidsrecht
 :Date: 25-09-2018
@@ -50,3 +51,44 @@ IMPORTANT: Slide van Dwingend karakter van de WAO *ZEKER EN VAST* op examen
 . Moet niet regelmatig zijn
 . 1X kan genoeg
 . Moet niet de bedoeling zijn om iemand te pesten
+
+== Deel 2.4
+IMPORTANT: Verschil tussen gewaarborgd dagloon en gewaarborgd loon
+
+Arbeidsongeschiktheid:: in de casus op het exammen word het veronderstelt dat er in het contract staat dat de werknemer een geneeskundig getuigschift moet bezorgen aan de werkgever.
+
+Arbeidsongeschiktheid: Tabel vanbuiten leren
+
+== Deel 2.5
+Ontbindende voorwaarde:: Als de toekomstige gebeurtenis, die niet percee gebeurd, wordt de arbeidsovereenkomst ontbonden:
+
+Ontbindende tijdsbepaling:: De overeenkomst wordt aangegaan en er word iets opgenomen in het contract waardoor bij een toekomstige gebeurtenis - die zeker gaat gebeuren - het contract wordt ontbonden.
+
+
+== Deel 2.6
+Ontslag - ondeelbaar:: Je kan niet met een bepaald deel van de arbeidsovereenkomst stoppen.
+
+IMPORTANT: Examenvraag: schrijf een opzegbrief:
+    1. Je moet een uiting stellen dat je een einde wilt brengen aan je arbeidsovereenkomst
+    2. Het aanvangpunt en duur van uw opzegtermijn.
+    Vb: Vanaf 11/11 en mijn opzegtermijn is 13 weken.
+    VB *casus*:
+        - Als werknemer
+        - Bediende
+        - Onstlag met opzegtermijn
+        - 3 jaar bij hetzelfde bedrijf
+        - Brief verstuurt op donderdag 15/11
+        *Oplossing*:
+        -  Einde arbeidsovereenkomst
+        -  Opzegtermijn start op 26/11 ( 3 dagen na versturen: vrijdag - zaterdag - (zondag telt niet) en dan maandag. Ingang volgende week is 26/11) en duurt 6 weken
+
+
+*Voor de duur van uw opzegtermijn moet je kijken naar wanneer de opzegtermijn start.*
+
+Examenvraag: man en vrouw werktte samen. Man en vrouw hadden ruzie over kinderen en vrouw ontsloeg man om dringende reden. Is dit wettelijk? Antwoord: Neen, dit gaat puur om een persoonlijk dispuut.
+
+Casus: Maandag 10/11 komt Jan, de werkgever, de weten dat Robbe, de werkgever, steelt in het bedrijf. Jan heeft tot 3 dagen erna (dus tot en met 13/11) te kans om Robbe om dringende redenen te ontslaan.
+* 1ste termijn: 3 werkdagen (maximumtermijn) vanaf kennis van de feiten.
+* 2de termijn: 3 werkdagen (te rekenen vanaf de dag dat de werkgever het onstlag heeft laten wijden) om motieven van onstlag te omschrijven.
+
+== AVG / GDPR

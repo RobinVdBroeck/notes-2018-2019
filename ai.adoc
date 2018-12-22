@@ -8,12 +8,12 @@
 == Introduction
 // TODO: defenition of general intelligence
 Aims::
-. Long term aim: Artificial *general* intelligence +
-. Short term aim: voor een taak specefiek
+- Long term aim: Artificial *general* intelligence +
+- Short term aim: voor een taak specefiek
 
 Turing test::
-. Inteligentie nodig voor inteligente te waarderen
-. Onduidelijkheid kwa spelregels (vb. hoelang mag de jury de test doen: tot de persoon in slaap valt en enkel het machine niet meer verderkan)
+- Inteligentie nodig voor inteligente te waarderen
+- Onduidelijkheid kwa spelregels (vb. hoelang mag de jury de test doen: tot de persoon in slaap valt en enkel het machine niet meer verderkan)
 
 Analoog met vliegen:: De mens kan niet vliegen zoals een vogel (*simulatie*), dus moest een andere manier gevonden worden => vliegtuigen (*reproductie*)
 
@@ -96,11 +96,11 @@ image::bi-directioneel.jpg[]
 Locale search :: alle mogelijke algoritmes waar er maar 1 toestand wordt bijgehouden
 
 === Hill Climbing
-. Gebasseerd op diepte eerst
+- Gebasseerd op diepte eerst
 
 === Beam search:
-. Gebasseerd op breedte eerst
-. Optimalisatie: Leafs die geen eind-knoop zijn: weggooien
+- Gebasseerd op breedte eerst
+- Optimalisatie: Leafs die geen eind-knoop zijn: weggooien
 
 image::beam.jpg[]
 
@@ -115,9 +115,32 @@ Convergeren:: Niet erg als dit niet gebeurd
 
 Slide 44:: Indien je er [alma3, breakfest, ?, cheap] of [alma3, ?, friday, cheap] zou nemen komt hij niet meer overeen met het voorbeeld. => Altijd de kleinste generalisatie *MOGELIJK* nemen!
 
+== Logica
+
+=== Propositie logica
+- Gaan we niet meer gebruiken
+- Handig op predicaten te begrijpen
+
+=== Predicaten logica
+- Als meetstaaf om te testen of theorem proofer klopt
+
+
 == Aut Reasoning
-Slide 7:: Mensen proberen aleen (heersers te vermoooden waar ze niet loyaal aan zijn)
+Slide 7:: Mensen proberen alleen (heersers te vermoooden waar ze niet loyaal aan zijn)
 
 Modus Ponens:: Als A => B en je hebt A heb je ook B
+Modus Tolens:: Als A => B en je hebt geen A heb je ook geen B
 
 IMPORTANT: Enkel syntaxtische gelijkheid: (vader(Jan), broer(An)) = NIET OK ; (X, broer(An)) = OK ; (f(X, a), f(b, Y)) = OK
+
+
+First Order Logica > Clausule logica > Horn Clause Logica > Gegronde Logica
+
+- Gegronde logica -> Horn clause logica = unificatie
+- Horn clause logica -> Clausala = resolutie
+- Clausule -> First Order logia = normalisatie
+
+Gegronde logica:: Brengt je naar een theorem prover
+
+== Data mining
+
